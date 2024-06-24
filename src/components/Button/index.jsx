@@ -1,6 +1,6 @@
-const Button = () => {
+const Button = ({testo}) => {
  return (
-    <h1> ola mundo </h1>
+     <button>{testo}</button>
  )
 
 }
